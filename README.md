@@ -36,13 +36,3 @@ restore:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/mac/restore.sh -o /tmp/edt-restore.sh && bash /tmp/edt-restore.sh && rm /tmp/edt-restore.sh
 ```
-
-### Slackware/unRAID:
-Install:
-```bash
-wget -O activate.sh https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/slackware/activate.sh && chmod +x activate.sh && ./activate.sh
-```
-Restore:
-```bash
-wget -O restore.sh https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/slackware/restore.sh && chmod +x restore.sh && ./restore.sh
-```
