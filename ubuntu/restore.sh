@@ -2,7 +2,7 @@
 
 echo "Restoring default Ubuntu MOTD..."
 
-MOTD_SCRIPT="/etc/update-motd.d/99-tenbyte-motd"
+MOTD_SCRIPT="/etc/update-motd.d/99-edt-motd"
 
 if [[ -f "$MOTD_SCRIPT" ]]; then
     echo "Removing EDT MOTD script..."
