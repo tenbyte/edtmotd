@@ -2,7 +2,7 @@
 
 echo "Restoring default RHEL MOTD..."
 
-MOTD_SCRIPT="/etc/profile.d/tenbyte-motd.sh"
+MOTD_SCRIPT="/etc/profile.d/edt-motd.sh"
 
 if [[ -f "$MOTD_SCRIPT" ]]; then
     echo "Removing EDT MOTD script..."

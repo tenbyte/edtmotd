@@ -2,7 +2,7 @@
 
 echo "🔧 Checking for existing EDT MOTD..."
 
-MOTD_URL="https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/mac/tenbyte-motd.sh"
+MOTD_URL="https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/mac/edt-motd.sh"
 MOTD_SCRIPT="$HOME/.tenbyte_motd.sh"
 ZPROFILE="$HOME/.zprofile"
 BASH_PROFILE="$HOME/.bash_profile"

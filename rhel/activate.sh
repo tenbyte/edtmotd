@@ -2,8 +2,8 @@
 
 echo "Checking for an existing EDT MOTD..."
 
-MOTD_URL="https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/rhel/tenbyte-motd.sh"
-MOTD_SCRIPT="/etc/profile.d/tenbyte-motd.sh"
+MOTD_URL="https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/rhel/edt-motd.sh"
+MOTD_SCRIPT="/etc/profile.d/edt-motd.sh"
 
 if [[ -f "$MOTD_SCRIPT" ]]; then
     echo "Existing EDT MOTD found. Overwriting..."
