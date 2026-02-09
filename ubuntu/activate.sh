@@ -2,8 +2,8 @@
 
 echo "Checking for an existing EDT MOTD..."
 
-MOTD_URL="https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/ubuntu/edt-motd.sh"
-MOTD_SCRIPT="/etc/update-motd.d/99-edt-motd.sh"
+MOTD_URL="https://raw.githubusercontent.com/tenbyte/edtmotd/refs/heads/main/ubuntu/edt-motd"
+MOTD_SCRIPT="/etc/update-motd.d/99-edt-motd"
 
 if [[ -f "$MOTD_SCRIPT" ]]; then
     echo "Existing EDT MOTD found. Overwriting..."
